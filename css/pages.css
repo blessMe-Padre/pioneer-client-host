@@ -1,0 +1,427 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+/* ПЕРЕПИСЫВАНИЕ СТИЛЕЙ ПЛАГИНОВ */
+.xt_woofc-cart-open .xt_woofc-checkout {
+	background: #E72140 !important;
+}
+.blockSericeIcons {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 70vw;
+  margin: auto;
+}
+.blockSericeIconsBottom {
+  max-width: 55vw !important;
+}
+.serviceIcon {
+  min-width: 127px;
+  max-width: 127px;
+  margin-left: 0 !important;
+  cursor: pointer;
+}
+.serviceIcon p {
+	text-align: center;
+	font-size: 1.1vw;
+	font-weight: bold;
+	color: #0DA3AD;
+}
+.serviceIcon p:not(:nth-child(2)) {
+	display: none;
+}
+.serviceIcon img {
+  max-width: 127px;
+  max-height: 130px;
+}
+
+.blockPerfects .wp-block-column p {
+	text-align: center;
+	font-size: 1.1vw;
+	font-weight: bold;
+	color: #0DA3AD;
+}
+.post-2234 header {
+  display: none;
+}
+.post-2234 .entry-content p{
+  max-width: 60%;
+  line-height: 40px;
+}
+.post-2253 .entry-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.post-2253 .entry-content p{
+  max-width: 60%;
+  line-height: 40px;
+}
+.post-2251  .entry-content{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.post-2251  .entry-content p{
+  max-width: 60%;
+  line-height: 40px;
+}
+.allHeaders {
+  color: #0DA3AD;
+  border-bottom: 8px solid #0DA3AD;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 52px;
+  font-weight: bold;
+}
+.serviceContacts .wp-block-column p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.serviceContacts .wp-block-column p strong{
+  color: #e72140;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.callMeWarranty {
+  background-color: #FBFBFB;
+  border: 1px solid #f5f5f5;
+  padding: 20px 20px;
+}
+.callMeWarranty p{
+
+}
+.blockAboutAss {
+  width: 100%;
+  background-color: #CBEFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.blockAboutAss .wp-block-column {
+ max-width: 600px;
+}
+.blockAboutAss .wp-block-column:first-child {
+	margin-left: 20px;
+}
+.blockAboutAss .wp-block-column:last-child {
+	margin-right: 20px;
+}
+.blockAboutAss .wp-block-column p, .blockAboutAss .wp-block-column ul li {
+   font-family: "PT Sans Narrow", "Helvetica Neue", "sans-serif";
+   color: #0DA3AD;
+   font-size: 21px;
+   line-height: 25px;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+   position: relative;
+}
+.blockAboutAss .wp-block-column ul {
+	margin-left: 143px;
+}
+.blockAboutAss .wp-block-column ul li:not(:first-child) {
+	margin-top: 18px;
+}
+.blockAboutAss .wp-block-column ul li:before {
+}
+.blockAboutAss .wp-block-column p:not(:first-child) {
+ margin-top: 40px;
+}
+.blockPerfects {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blockPerfects .wp-block-column {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.blockSertificates {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #0DA3AD;
+  padding: 5%;
+}
+.blockSertificates li{
+  max-width: 255px;
+  width: 11vw !important;
+}
+.callBackBlock {
+  max-width: 70vw;
+  margin: auto;
+  border: 3px solid #0DA3AD;
+  padding: 2%;
+}
+.toothList li::before {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  background-image: url('http://localhost/perlamutr/wp-content/uploads/2022/04/smalltooth.png');
+  display: block;
+  position: absolute;
+  left: -40px;
+  background-repeat: no-repeat;
+}
+.metaslider .flex-control-nav li a {
+	background-color: yellow;
+	-webkit-filter: drop-shadow(1px 1px 1px #000);
+	        filter: drop-shadow(1px 1px 1px #000);
+}
+.wpcf7-form {
+	padding: 5% 20%;
+}
+.wpcf7-form input,.wpcf7-form textarea {
+  width: 100%;
+  border-radius: 0;
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+  background-color: #FBFBFD;
+  margin-top: 16px;
+}
+.listCompany ul{
+  margin-left: 100px;
+  margin-top: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.listCompany ul li::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.wpcf7-form p {
+  margin-top: 20px;
+}
+.wpcf7-submit {
+  border-radius: 0px !important;
+  background-color: #e72140 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+	border-color: #0DA3AD !important;
+}
+.captcha-image {
+	border: 2px solid #0DA3AD !important;
+	margin-top: 29px;
+	border-radius: 25px;
+}
+.AboutAsPage {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.AboutAsPage p {
+  font-weight: bold;
+  font-size: 25px;
+	color: #0DA3AD;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+#yamap0 {
+  max-width: 70vw;
+  overflow: hidden;
+  margin: auto;
+}
+.wprs_unslider {
+	position: relative;
+	max-width: 70vw;
+	margin: auto;
+	border: 2px solid #0DA3AD;
+	margin-top: 3%;
+}
+.aboutAsHeader {
+  text-align: left;
+  margin-left: 14.6%;
+}
+.docContainer {
+  min-width: 70vw;
+  max-width: 70vw;
+  margin: auto;
+}
+.docContainer .wp-block-column .wp-block-file a:first-child {
+  color: #0DA3AD;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  text-decoration: none;
+  min-width: 70%;
+  max-width: 70%;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.docContainer .wp-block-column .wp-block-file a:first-child:hover {
+  color: #12c7d1;
+}
+.docContainer .wp-block-column .wp-block-file a:last-child {
+  border-radius: 0px !important;
+  background-color: #0DA3AD;
+}
+.docContainer .wp-block-file {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	width: 100%;
+}
+.popularHeader {
+	max-width: -webkit-max-content;
+	max-width: -moz-max-content;
+	max-width: max-content;
+}
+.popularHeader h2 {
+  color: #e72140;
+  font-weight: 700;
+  font-size: 22px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.weBest .wp-block-column {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	max-width: 300px;
+}
+.weBest h3 {
+  margin-bottom: 20px;
+  color: #e72140;
+  font-weight: 700;
+  font-size: 22px;
+}
+.post-2234{
+	margin-top: 135px;
+}
+.weBest p{
+  text-align: center;
+}
+
+.weBest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.mainPageAboutAs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 50%;
+  line-height: 33px;
+}
+.mainPageAboutAs h2 a {
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #e72140;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mainPageAboutAs .wp-block-separator, .mainPageAboutAs hr, .wp-block-post-date {
+  display: none !important;
+}
+.mainPageAboutAs .wp-block-post-excerpt__more-text a{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e72140;
+  padding: 4px 5px;
+}
+
+@media (max-width: 768px) {
+  .post-2234 .entry-content p {
+    max-width: 96% !important;
+    line-height: 40px;
+  }
+  .post-2253 .entry-content p {
+    max-width: 96% !important;
+    line-height: 40px;
+  }
+  .post-2251 .entry-content p {
+    max-width: 96% !important;
+    line-height: 40px;
+  }
+}
