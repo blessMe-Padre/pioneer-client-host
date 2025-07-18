@@ -1,7 +1,9 @@
 <?php
+$version = '1.0.0';
 
 add_action( 'after_setup_theme', 'inside_setup' );
 function inside_setup() {
+  global $version;
   load_theme_textdomain( 'insideTheme', get_template_directory() . '/languages' );
   add_theme_support( 'title-tag' );
   add_theme_support( 'post-thumbnails' );
@@ -31,7 +33,8 @@ function inside_notice_dismissed() {
 }
 add_action( 'wp_enqueue_scripts', 'inside_enqueue' );
 function inside_enqueue() {
-  wp_enqueue_style( 'inside-style', get_stylesheet_uri() );
+  global $version;
+  wp_enqueue_style( 'inside-style', get_stylesheet_uri(), array(), $version );
   wp_enqueue_script( 'jquery' );
 }
 add_action( 'wp_footer', 'inside_footer' );
@@ -241,12 +244,13 @@ function inside_comment_count( $count ) {
 
 add_action('wp_enqueue_scripts','inside_css_loading');
 function inside_css_loading() {
-  wp_enqueue_style('inside_css',get_stylesheet_directory_uri() . '/css/inside.css');
-  wp_enqueue_style('pages_css',get_stylesheet_directory_uri() . '/css/pages.css');
-  wp_enqueue_style('woo_css',get_stylesheet_directory_uri() . '/css/woo.css');
-  wp_enqueue_style('rewrite_css',get_stylesheet_directory_uri() . '/css/rewrite.css');
-  wp_enqueue_script('inside_js',get_stylesheet_directory_uri() . '/js/insidePopUp.js');
-  wp_enqueue_script('buttons_js',get_stylesheet_directory_uri() . '/js/editCartButton.js');
+  global $version;
+  wp_enqueue_style('inside_css',get_stylesheet_directory_uri() . '/css/inside.css', array(), $version);
+  wp_enqueue_style('pages_css',get_stylesheet_directory_uri() . '/css/pages.css', array(), $version);
+  wp_enqueue_style('woo_css',get_stylesheet_directory_uri() . '/css/woo.css', array(), $version);
+  wp_enqueue_style('rewrite_css',get_stylesheet_directory_uri() . '/css/rewrite.css', array(), $version);
+  wp_enqueue_script('inside_js',get_stylesheet_directory_uri() . '/js/insidePopUp.js', array(), $version);
+  wp_enqueue_script('buttons_js',get_stylesheet_directory_uri() . '/js/editCartButton.js', array(), $version);
 }
 
 function my_upload_size_limit( $limit ) {
