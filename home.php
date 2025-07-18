@@ -15,6 +15,7 @@ get_header();
             </div>
         </div>
     </section>
+
     <section class="catalog-section">
         <div class="image-wrapper">
             <img src="<?php echo get_template_directory_uri(); ?>/img/pioner.svg" alt="пионер">
@@ -47,6 +48,52 @@ get_header();
                     </div>
                     <img width="855" height="420" src="<?php echo get_template_directory_uri(); ?>/img/catalog-item-2.webp" alt="мебель">
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-section__header">
+                <h2 class="about-section__title">О&nbsp;нас</h2>
+                <div class="about-section__header-line">
+                    <svg width="49" height="36" viewBox="0 0 49 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M48.9979 0.444946V35.5551H39.0283L27.5417 0.444946H48.9979ZM22.3402 0.444946V35.5551H12.3706L0.883972 0.444946H22.3402Z" fill="#E6E6EF" />
+                    </svg>
+                </div>
+                <p class="about-section__text">Уют начинается с мебели, а мебель начинается с нас</p>
+            </div>
+            <div class="about-section__wrapper">
+                <div class="about-section__item">
+                    <div class="image-wrapper">
+                        <img width="704" height="685" src="<?php echo get_template_directory_uri(); ?>/img/about-1.webp" alt="о нас">
+                    </div>
+                </div>
+                <div class="about-section__item">
+                    <ul class="about-section__list">
+                        <li class="about-section__item">
+                            <div class="about-section__item-inner">
+                                <span>{01}</span>
+                                <p>точность</p>
+                            </div>
+                            <p class="about-section__item-text">Мебель на заказ всегда делается применительно к габаритам места установки с точностью до миллиметра. Встроенный шкаф купе, стеллаж или стол, изготовленные на заказ, будут установлены без зазоров и щелей, даже если стены имеют неровности.</p>
+                        </li>
+                        <li class="about-section__item">
+                            <div class="about-section__item-inner">
+                                <span>{02}</span>
+                                <p>Долговечность материалов</p>
+                            </div>
+                            <p class="about-section__item-text">При производстве мебели используются качественные материалы, с которыми ничего не произойдет со временем. Срок службы мебели, фактически, не менее 15 лет. Наша мебель прослужит с лёгкостью до следующего апгрейда Вашего дома!.</p>
+                        </li>
+                        <li class="about-section__item">
+                            <div class="about-section__item-inner">
+                                <span>{03}</span>
+                                <p>Решение под ключ</p>
+                            </div>
+                            <p class="about-section__item-text">В расчёт стоимости всегда включены все затраты - проектирование, изготовление, доставка, сборка и установка. Мы решаем вопрос мебелирования комплексно, без "головной боли".</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
