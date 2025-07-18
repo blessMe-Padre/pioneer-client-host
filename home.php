@@ -65,7 +65,7 @@ get_header();
             </div>
             <div class="about-section__wrapper">
                 <div class="about-section__item">
-                    <div class="image-wrapper">
+                    <div class="image-wrapper image-wrapper-animate">
                         <img width="704" height="685" src="<?php echo get_template_directory_uri(); ?>/img/about-1.webp" alt="о нас">
                     </div>
                 </div>

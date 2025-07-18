@@ -2057,7 +2057,7 @@ footer * {
 	transition: transform 0.3s ease;
 }
 
-.image-wrapper:hover img {
+.image-wrapper-animate:hover img {
 	transform: scale(1.05);
 }
 
