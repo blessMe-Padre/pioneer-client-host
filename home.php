@@ -97,6 +97,53 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="interior-section">
+        <div class="container">
+            <h2 class="interior-section__title">наша мебель в интерьере</h2>
+            <div class="interior-section__row">
+                <div class="interior-section__item">
+                    <div class="image-wrapper image-wrapper-animate">
+                        <img width="703" height="533" src="<?php echo get_template_directory_uri(); ?>/img/interior-1.webp" alt="наша мебель">
+                    </div>
+                    <h3 class="interior-section__item-title">Ванная и унитаз</h3>
+                </div>
+                <div class="interior-section__item interior-section__item--small interior-section__item--small-right">
+                    <div class="interior-section__block">
+                        <div class="image-wrapper image-wrapper-animate">
+                            <img width="458" height="345" src="<?php echo get_template_directory_uri(); ?>/img/interior-2.webp" alt="наша мебель">
+                        </div>
+                        <h3 class="interior-section__item-title">душ в ванную</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="interior-section__row">
+                <div class="interior-section__item interior-section__item--small interior-section__item--small-left">
+                    <div class="interior-section__block">
+                        <div class="image-wrapper image-wrapper-animate">
+                            <img width="458" height="345" src="<?php echo get_template_directory_uri(); ?>/img/interior-3.webp" alt="наша мебель">
+                        </div>
+                        <h3 class="interior-section__item-title">Стеклянная душевая кабина</h3>
+                    </div>
+                </div>
+                <div class="interior-section__item">
+                    <div class="image-wrapper image-wrapper-animate">
+                        <img width="703" height="533" src="<?php echo get_template_directory_uri(); ?>/img/interior-4.webp" alt="наша мебель">
+                    </div>
+                    <h3 class="interior-section__item-title">раковина и ванная “BLACK”</h3>
+                </div>
+            </div>
+
+            <div class="interior-section__item">
+                    <div class="image-wrapper image-wrapper-animate">
+                        <img width="1438" height="533" src="<?php echo get_template_directory_uri(); ?>/img/interior-5.webp" alt="наша мебель">
+                    </div>
+                    <h3 class="interior-section__item-title">Кухня в стиле минимализм</h3>
+                </div>
+
+        </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>
