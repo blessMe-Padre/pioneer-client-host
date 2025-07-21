@@ -1155,3 +1155,9 @@ ul.products li.product .added_to_cart.wc-forward {
 .catalogCSS.products.columns-4 .product {
 	background-color: #ffea79;
 }
+
+.product.type-product {
+	padding: 0;
+	width: 100%;
+	max-width: 335px;
+}
