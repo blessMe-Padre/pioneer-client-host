@@ -54,7 +54,7 @@
 
         <div class = "signUpBlock">
             <?php wp_nav_menu( array( 'theme_location' => 'tocart', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
-            <!--<a class = "lcButton" href = "/cart">Корзина</a> -->
+            <!-- <a class = "lcButton" href = "/cart">Корзина</a> -->
         </div>
       </div>
     </div>
