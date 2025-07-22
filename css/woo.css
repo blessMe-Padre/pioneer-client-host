@@ -1201,3 +1201,71 @@ ul.products li.product .woocommerce-loop-product__title {
 		margin-top: 45px;
 	}
 }
+
+/* страница товара */
+.single-product-card .product.type-product {
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+}
+
+.quantity {
+	padding: 10px 10px;
+	border: 1px solid #ededf2;
+	border-radius: 6px;
+	flex: 0 0 auto;
+}
+
+.wp-element-button {
+	border: none;
+	background-color: transparent;
+}
+
+.input-text.qty.text {
+	border: none;
+	background-color: transparent;
+	max-width: 50px;
+}
+
+.plus.button.wp-element-button {
+	margin-left: -21px;
+}
+
+.single-product-card .single_add_to_cart_button {
+	width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+	.single-product-card .cart {
+		flex-wrap: wrap;
+	}
+
+	.single-product-card .product.type-product .cart {
+		width: 100%;
+	}
+
+	.single-product-card .woocommerce-product-gallery__wrapper a img {
+		max-height: 351px;
+	}
+
+	.single-product-card .product.type-product button {
+		margin-left: 0;
+	}
+
+	.single-product-card .summary.entry-summary {
+		margin-left: 0 !important;
+		background-color: transparent !important;
+		min-width: 100% !important;
+	}
+
+	.single-product-card .product.type-product .quantity input {
+		padding: 5px 10px;
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+
+	.single-product-card {}
+
+}
