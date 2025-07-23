@@ -16,7 +16,7 @@
     <div class = "container">
       <div class="header-inner">
         <a href = "/">
-          <img width="275" height="69" class = "logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-new.png" alt="logo" />
+          <img width="275" height="69" class = "logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-new-2.png" alt="logo" />
         </a> 
         <div class="header-inner__items">
           <div class="header-inner__item">
