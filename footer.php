@@ -43,7 +43,7 @@
                   </div>
                   <div class="footer-item__row">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/pin.svg" alt="pin">
-                    <p>г. Находка, Угольная, 61 ст6</p>
+                    <p>Находкинский проспект 1М</p>
                   </div>
                 </div>
             </div>
