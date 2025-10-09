@@ -2097,8 +2097,17 @@ footer .copyright {
 	transition: color 0.3s ease;
 }
 
+.catalog-section__item .catalog-item-span {
+	text-transform: uppercase;
+	transition: color 0.3s ease;
+}
+
 .catalog-section__item:hover {
 	background-color: #4257be;
+}
+
+.catalog-section__item:hover .catalog-item-span {
+	color: #ffffff;
 }
 
 .catalog-section__item:hover .catalog-section__item-inner h3 {

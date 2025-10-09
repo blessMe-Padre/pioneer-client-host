@@ -1,5 +1,5 @@
 <?php
-$version = '1.0.1';
+$version = '1.0.3';
 
 add_action('after_setup_theme', 'inside_setup');
 function inside_setup()
@@ -47,35 +47,35 @@ add_action('wp_footer', 'inside_footer');
 function inside_footer()
 {
   ?>
-    <script>
-    jQuery(document).ready(function($) {
-    let deviceAgent = navigator.userAgent.toLowerCase();
-    if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
-    $("html").addClass("ios");
-    $("html").addClass("mobile");
-    }
-    if (deviceAgent.match(/(Android)/)) {
-    $("html").addClass("android");
-    $("html").addClass("mobile");
-    }
-    if (navigator.userAgent.search("MSIE") >= 0) {
-    $("html").addClass("ie");
-    }
-    else if (navigator.userAgent.search("Chrome") >= 0) {
-    $("html").addClass("chrome");
-    }
-    else if (navigator.userAgent.search("Firefox") >= 0) {
-    $("html").addClass("firefox");
-    }
-    else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
-    $("html").addClass("safari");
-    }
-    else if (navigator.userAgent.search("Opera") >= 0) {
-    $("html").addClass("opera");
-    }
-    });
-    </script>
-  <?php
+      <script>
+      jQuery(document).ready(function($) {
+      let deviceAgent = navigator.userAgent.toLowerCase();
+      if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+      $("html").addClass("ios");
+      $("html").addClass("mobile");
+      }
+      if (deviceAgent.match(/(Android)/)) {
+      $("html").addClass("android");
+      $("html").addClass("mobile");
+      }
+      if (navigator.userAgent.search("MSIE") >= 0) {
+      $("html").addClass("ie");
+      }
+      else if (navigator.userAgent.search("Chrome") >= 0) {
+      $("html").addClass("chrome");
+      }
+      else if (navigator.userAgent.search("Firefox") >= 0) {
+      $("html").addClass("firefox");
+      }
+      else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+      $("html").addClass("safari");
+      }
+      else if (navigator.userAgent.search("Opera") >= 0) {
+      $("html").addClass("opera");
+      }
+      });
+      </script>
+    <?php
 }
 
 add_filter('document_title_separator', 'inside_document_title_separator');
@@ -247,8 +247,8 @@ function inside_enqueue_comment_reply_script()
 function inside_custom_pings($comment)
 {
   ?>
-    <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>"><?php echo esc_url(comment_author_link()); ?></li>
-    <?php
+      <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>"><?php echo esc_url(comment_author_link()); ?></li>
+      <?php
 }
 add_filter('get_comments_number', 'inside_comment_count', 0);
 function inside_comment_count($count)
